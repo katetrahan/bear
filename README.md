@@ -1,12 +1,24 @@
-# _{Application Name}_
+# _Roman Numerals Convertor_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A Convertor that outputs Roman Numerals, 12/7/17_
 
-#### By _**{List of contributors}**_
+#### By _**Ross Fletcher & James Donlan**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a program that will convert regular numbers to Roman Numerals_
+
+|  Behavior | Input  | Output  |
+|---|---|---|
+|  Recognize input of numbers | 2 | 2 |
+|  Reject numbers greater than 3,999 | 4000  | "too high"  |
+|  Convert single digits to Roman Numerals | 2  | II  |
+|  Convert double digits to Roman Numerals | 10  | X  |
+|  Convert triple digits to Roman Numerals | 205  | CCV  |
+|  Convert quadruple digits to Roman Numerals | 1,476  | MCDLXXVI  |
+|   |   |   |
+|   |   |   |
+|   |   |   ||
 
 ## Setup/Installation Requirements
 
@@ -15,8 +27,6 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _in a simple_
 * _easy-to-understand_
 * _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
