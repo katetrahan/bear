@@ -6,11 +6,11 @@
 //     return input;
 //   }
 // }
-function RomanNum(skinName) {
-  this.skinName = skinName;
+function RomanNum(name) {
+  this.name = name;
 }
 
-RomanNum.prototype.convertor = function (input) {
+RomanNum.prototype.converter = function (input) {
   var romeNum = [];
   var numOne = (input % 10);
   var numTen = ((input % 100) - ((input % 100)%10))/10;

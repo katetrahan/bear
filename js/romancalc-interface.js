@@ -6,8 +6,8 @@ $(document).ready(function() {
     event.preventDefault();
     var input = parseInt($("#numEntry").val());
     $("#result").empty();
-    var romanNumCalc = new RomanNum("hot pink");
-    var romeNum = romanNumCalc.convertor(input);
+    var romanNumCalc = new RomanNum("five");
+    var romeNum = romanNumCalc.converter(input);
     console.log(romeNum);
     $("#romeNum").append(romeNum);
   });
