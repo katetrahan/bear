@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rossfletcher19/romanNum#readme",
   "devDependencies": {
+    "bower-files": "^4.0.0",
     "browserify": "^16.0.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",

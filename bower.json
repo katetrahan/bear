@@ -1,0 +1,23 @@
+{
+  "name": "romannum",
+  "description": "A Convertor of numbers to roman numerals",
+  "main": "index.js",
+  "authors": [
+    "Ross Fletcher <rtbfletch@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rossfletcher19/romanNum",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0",
+    "moment": "^2.20.1"
+  }
+}

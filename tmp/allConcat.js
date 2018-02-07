@@ -21,3 +21,7 @@ $(document).ready(function () {
     $('#romeNum').prepend('<p>Thank you, ' + email + ' has been added to recieve a message!</p>');
   });
 });
+
+$(document).ready(function(){
+  $('#time').text(moment());
+});
