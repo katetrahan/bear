@@ -1,14 +1,16 @@
-function romanNumCalc(input) {
-  if (input > 3999) {
-    input = "Number too high";
-    return input;
-  } else {
-    return input;
-  }
+// function romanNumCalc(input) {
+//   if (input > 3999) {
+//     input = "Number too high";
+//     return input;
+//   } else {
+//     return input;
+//   }
+// }
+function RomanNum(skinName) {
+  this.skinName = skinName;
 }
 
-
-function romanNumCalc(input) {
+RomanNum.prototype.convertor = function (input) {
   var romeNum = [];
   var numOne = (input % 10);
   var numTen = ((input % 100) - ((input % 100)%10))/10;
@@ -96,17 +98,15 @@ function romanNumCalc(input) {
  };
 };
 
+exports.romanNumModule = RomanNum;
 
 
-
-
-
-$(document).ready(function() {
-  $("#romanNumCalc").submit(function(event){
-    event.preventDefault();
-    var input = parseInt($("#numEntry").val());
-    $("#result").empty();
-    var result = romanNumCalc(input);
-    $("#result").append(result);
-  });
-});
+// $(document).ready(function() {
+//   $("#romanNumCalc").submit(function(event){
+//     event.preventDefault();
+//     var input = parseInt($("#numEntry").val());
+//     $("#result").empty();
+//     var result = romanNumCalc(input);
+//     $("#result").append(result);
+//   });
+// });
