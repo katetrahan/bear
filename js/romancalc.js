@@ -24,7 +24,7 @@ RomanNum.prototype.convertor = function (input) {
 
   for (i = 0; i < numTho; i++)  {
       romeNum.push("M");
-  };
+  }
 
   for (i = 0; i < numHun; i++)  {
     // debugger;
@@ -42,13 +42,13 @@ RomanNum.prototype.convertor = function (input) {
     romeNum.push("D");
     for (i = 0; i < (numHun - 5); i++)  {
       romeNum.push("C");
-      };
+      }
     break;
     }
     else {
       romeNum.push("C");
     }
-  };
+  }
   for (i = 0; i < numTen; i++)  {
     if (numTen === 4)  {
       romeNum.push("XL");
@@ -64,13 +64,13 @@ RomanNum.prototype.convertor = function (input) {
     romeNum.push("L");
     for (i = 0; i < (numTen - 5); i++)  {
       romeNum.push("X");
-      };
+      }
     break;
     }
     else {
       romeNum.push("X");
     }
-  };
+  }
   for (i = 0; i < numOne; i ++) {
     if (numOne === 4)  {
       romeNum.push("IV");
@@ -86,16 +86,16 @@ RomanNum.prototype.convertor = function (input) {
     romeNum.push("V");
     for (i = 0; i < (numOne - 5); i++)  {
       romeNum.push("I");
-      };
+      }
     break;
     }
     else {
       romeNum.push("I");
     }
-  };
+  }
   return romeNum.join('');
 
- };
+ }
 };
 
 exports.romanNumModule = RomanNum;
