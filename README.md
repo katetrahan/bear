@@ -11,7 +11,7 @@ _This is a program that will convert regular numbers to Roman Numerals_
 |  Behavior | Input  | Output  |
 |---|---|---|
 |  Recognize input of numbers | 2 | 2 |
-|  Reject numbers greater than 3,999 | 4000  | "too high"  |
+|  Reject numbers greater than 3,999 | 4000  | "Number too high"  |
 |  Convert single digits to Roman Numerals | 2  | II  |
 |  Convert double digits to Roman Numerals | 10  | X  |
 |  Convert triple digits to Roman Numerals | 205  | CCV  |
@@ -22,26 +22,28 @@ _This is a program that will convert regular numbers to Roman Numerals_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone this repo. <br />
+`$ git clone https://github.com/rossfletcher19/romanNum.git`
+* cd into the cloned repo and run the following command from your terminal. <br/>
+`$ npm install && bower install`
+* Serve a production version of the web app by running this gulp task <br/>
+`gulp serve --prod`
 
-## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _jQuery-3.2.1_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+Copyright (c) 2018 **_Ross Fletcher_**
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

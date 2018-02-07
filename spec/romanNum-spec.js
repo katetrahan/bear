@@ -19,7 +19,7 @@ describe('RomanNum', function() {
 
   it('should give string when requested number to convert is > 3999', function() {
     var output = "";
-    output = numToRoman.converter(4001);
+    output = numToRoman.converter(4000);
     expect(output).toEqual("Number too high");
   });
 
