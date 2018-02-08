@@ -1,4 +1,6 @@
-var RomanNum = require('./../js/romancalc.js').romanNumModule;
+import { RomanNum } from './../js/romancalc.js';
+
+// var RomanNum = require('./../js/romancalc.js').romanNumModule;
 
 
 $(document).ready(function() {
