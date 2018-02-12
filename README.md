@@ -1,24 +1,12 @@
-# _Roman Numerals Convertor_
+# _A Bear Tamagotchi_
 
-#### _A Convertor that outputs Roman Numerals, 12/7/17_
+#### _A Animal that we have to feed and play with to keep happy._
 
-#### By _**Ross Fletcher & James Donlan**_
+#### By _**Ross Fletcher & Kate Trahan**_
 
 ## Description
 
-_This is a program that will convert regular numbers to Roman Numerals_
 
-|  Behavior | Input  | Output  |
-|---|---|---|
-|  Recognize input of numbers | 2 | 2 |
-|  Reject numbers greater than 3,999 | 4000  | "Number too high"  |
-|  Convert single digits to Roman Numerals | 2  | II  |
-|  Convert double digits to Roman Numerals | 10  | X  |
-|  Convert triple digits to Roman Numerals | 205  | CCV  |
-|  Convert quadruple digits to Roman Numerals | 1,476  | MCDLXXVI  |
-|   |   |   |
-|   |   |   |
-|   |   |   ||
 
 ## Setup/Installation Requirements
 
@@ -33,10 +21,7 @@ _This is a program that will convert regular numbers to Roman Numerals_
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _JavaScript_
-* _jQuery-3.2.1_
+
 
 ### License
 
