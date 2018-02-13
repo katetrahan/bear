@@ -72,7 +72,7 @@ export class HungryBear {
     console.log(this.pissed);
   }
 
-  play() {  
+  play() {
     this.pissed = false;
     this.happiness = 10;
   }
