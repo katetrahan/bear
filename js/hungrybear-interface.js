@@ -4,13 +4,17 @@ import { HungryBear } from './../js/hungrybear.js';
 $(document).ready(function() {
   $("#start").click(function(event){
     event.preventDefault();
-    $('.food').empty();
     let fuzzy = new HungryBear("fuzzy");
-    let pleasework = setInterval(() => {
-      if (fuzzy.didFuzzyStarve()) {
-        alert("this works")
-      }
-    })
+    fuzzy.setHunger();
+    fuzzy.countDownEnergy();
+    fuzzy.decreaseHappiness();
 
-  })
-})
+    let energy = fuzzy.energy;
+    let happiness = fuzzy.happiness;
+    let statsUpdate = setInterval(() => {
+      $('.food').html(fuzzy.foodLevel);
+      $('.sleep').html(fuzzy.energy);
+      $('.happy').html(fuzzy.happiness);
+    }, 1000);
+   });
+  });

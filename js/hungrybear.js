@@ -24,7 +24,7 @@ export class HungryBear {
       this.life = true;
       console.log("life is true");
     }
-    console.log(this.life);
+    return this.life;
   }
 
   feed() {
