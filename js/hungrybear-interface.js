@@ -16,5 +16,12 @@ $(document).ready(function() {
       $('.sleep').html(fuzzy.energy);
       $('.happy').html(fuzzy.happiness);
     }, 1000);
+
+    // let clear = setInterval(() => {
+    //   if(fuzzy.didYouGetEaten()) {
+    //     clearInterval(timer);
+    //   }
+    // }, 1000);
+
    });
   });

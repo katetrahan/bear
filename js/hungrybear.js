@@ -13,7 +13,9 @@ export class HungryBear {
 // Hunger, Starving and Feeding
   setHunger() {
     setInterval(() => {
-      this.foodLevel--;
+      if (this.foodLevel > 0) {
+        this.foodLevel--;
+      }
     }, 1000);
     console.log(this.foodLevel);
   }
@@ -35,7 +37,9 @@ export class HungryBear {
 // Energy, FallAsleep and Rest
   countDownEnergy() {
     setInterval(() => {
-      this.energy--;
+      if(this.energy > 0){
+        this.energy--;
+      }
     }, 1000);
     console.log(this.energy);
   }
@@ -58,7 +62,9 @@ export class HungryBear {
 
   decreaseHappiness(){
     setInterval(() => {
-      this.happiness--;
+      if(this.happiness > 0){
+      this.happiness--;  
+      }
     }, 1000);
     console.log(this.happiness);
   }
